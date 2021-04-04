@@ -1,0 +1,35 @@
+image:
+  replicaCount: 1
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/armandleopold/graphexp
+  name: graphexp
+  tag: "latest"
+  deployRegistry: false
+  imagePullSecrets: registrysecret
+  dataSecret: |-
+    {"auths":{"registry.company.com":{"password":"","username":""}}}
+
+service:
+  type: ClusterIP
+  targetPort: 80
+  protocol: TCP
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
+ingress:
+  enabled: true
+  hostnames:
+  - graphexp.company.com
+  tls:
+  - hosts:
+    - graphexp.company.com
+    secretName: graphexp
+
+config: |
+  placeholder
