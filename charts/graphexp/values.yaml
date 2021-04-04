@@ -30,6 +30,3 @@ ingress:
   - hosts:
     - graphexp.company.com
     secretName: graphexp
-
-config: |
-  placeholder

@@ -25,9 +25,6 @@ spec:
       - name: {{ .Values.image.name }}
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
-        env:
-        - name: GRAPHEXP_CONFIG
-          value: | {{ .Values.config | trim | nindent 12 }}
         ports:
         - containerPort: {{ .Values.service.targetPort }}
           name: {{ .Values.service.targetPort }}{{ .Values.service.protocol | lower }}
