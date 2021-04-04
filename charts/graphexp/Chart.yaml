@@ -2,7 +2,7 @@ apiVersion: v2
 name: graphexp
 description: Graphexp is a lightweight web interface to explore and display a graph stored in a Gremlin graph database, via the Gremlin server
 appVersion: "0.8.3"
-version: 1.0.0
+version: "1.0.0"
 home: https://github.com/armandleopold/graphexp
 sources:
   - https://github.com/armandleopold/graphexp
