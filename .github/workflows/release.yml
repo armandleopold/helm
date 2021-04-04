@@ -35,6 +35,6 @@ jobs:
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.2.0
         with:
-          charts_repo_url: https://curie-data-factory.github.io/helm-charts
+          charts_repo_url: https://armandleopold.github.io/helm
         env:
           CR_TOKEN: "${{ secrets.CR_TOKEN }}"
