@@ -10,7 +10,7 @@ Welcome to my helm charts repository. All charts are in the charts directory.
 ## Adding the chart Repository
 
 ```
-helm repo add armandleopold https://armandleopold.github.io/helm
+helm repo add armandleopold https://helm.armandleopold.fr/
 helm repo update
 ```
 
