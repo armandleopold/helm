@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![](https://github.com/armandleopold/helm/workflows/Release%20Charts/badge.svg?branch=master)](https://github.com//armandleopold/helm/actions)
-[![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/armandleopold)](https://artifacthub.io/packages/search?repo=armandleopold)
+[![Artifact HUB](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/armandleopold)](https://artifacthub.io/packages/search?ts_query_web=armandleopold&sort=relevance&page=1)
 
 
 Welcome to my helm charts repository. All charts are in the charts directory.
